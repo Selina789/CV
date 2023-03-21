@@ -1,0 +1,363 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  font-family:'Montserrat', sans-serif;
+}
+
+nav {
+  background-color: rgb(44, 44, 44);
+  width: 100%;
+  height: 70px;
+  border-style: solid;
+  border-width: 1px;
+}
+
+.logo{
+  line-height: 70px;
+  font-weight: bold;
+  font-size: 35px;
+  padding-left: 100px;
+  font-family: 'Edu NSW ACT Foundation', cursive;
+  letter-spacing: 3px;
+  color:white;
+}
+
+
+ul {
+  float: right;
+  margin-right: 30px;
+  line-height: 70px;
+}
+
+ul li{
+  display: inline-block;
+  padding-right: 50px;
+}
+
+ul li a {
+  text-decoration: solid;
+  color: white;
+  font-weight: bold;
+  font-family: 'Roboto Slab', serif;
+  font-size: 18px;
+}
+.homebtn{
+  color: red;
+}
+
+.profilebtn{
+  color: rgb(3, 153, 212);
+}
+
+.aboutbtn{
+  color: rgb(189, 189, 49);
+}
+
+.btn-success{
+  color: rgb(7, 201, 7);
+}
+
+.btn-primary{
+  color: blue;
+}
+
+.div_title{
+  padding-top: 5%;
+  text-align: center;
+}
+
+.myname{
+  font-size: 45px;
+  font-weight: 800;
+  font-family: 'Montserrat', sans-serif;
+  letter-spacing: 3px;
+  text-align: center;
+  margin-bottom: 8px;
+  color: rgb(255, 176, 30);
+}
+
+.skyjpg{
+  display: block;
+  object-fit: cover;
+  margin-left: 607px;
+  border-style: solid;
+  border-width: 2px;
+  border-color: black;
+  border-radius: 120px;
+  height: 140px;
+  width: 140px;
+  margin: auto;
+}
+.div_cs{
+  font-size: 20px;
+  font-weight: 500;
+  font-family: 'Montserrat', sans-serif;
+  margin-bottom: 5px;
+  text-align: center;
+  letter-spacing: 3px;
+  margin-top: 10px;
+  color: rgb(3, 152, 211);
+}
+
+.div_left_right{
+  height: 100%;
+  margin-left: 20%;
+  width: 73%;
+  margin: auto;
+  margin-top: 50px;
+  border-top: solid;
+  border-width: 2px;
+  border-color: black;
+  margin-bottom: 10px;
+}
+
+.left_right_block{
+  display: grid;
+  grid-template-columns: 350px 1fr;
+}
+
+.div_left_block{
+  border-right: solid;
+  border-width: 2px;
+}
+
+.first_left_block{
+  margin-top: 60px;
+  border-bottom: solid;
+  border-width: 2px;
+}
+
+.second_left_block{
+  margin-top: 37px;
+  border-bottom: solid;
+  border-width: 2px;
+}
+
+.third_left_block{
+  margin-top: 60px;
+  border-bottom: solid;
+  border-width: 2px;
+}
+
+.div_right_block{
+  margin-top: 60px;
+  border-bottom: solid;
+  border-width: 2px;
+}
+
+.number,
+.email,
+.number1,
+.email1{
+  font-size: 18px;
+  margin-left: 40px;
+}
+
+.number,
+.email{
+  margin-bottom: 10px;
+  font-weight: 600;
+  font-weight: bold;
+  color: rgb(48, 131, 255);
+}
+
+.number1{
+  margin-bottom: 30px;
+  font-weight: 500;
+  font-weight: bold;
+}
+
+.email1{
+  margin-bottom:55px;
+  font-weight: 500;
+  font-weight: bold;
+
+}
+
+.phonepng{
+  display: inline-block;
+  width: 18px;
+  height: 18px;
+  margin-left: 8px;
+  margin-right: 9px;
+}
+
+.contact{
+  display: inline-block;
+  font-weight: 800;
+  letter-spacing: 3px;
+  font-size: 21px;
+  margin-bottom: 20px;
+  color: rgb(255, 176, 30);
+}
+
+.second_left_block{
+  margin-top: 50px;
+  border-bottom: solid;
+  border-width: 2px;
+}
+
+.pencilpng{
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  margin-right: 9px;
+  margin-left: 8px;
+}
+
+.skills{
+  display: inline-block;
+  font-weight: 800;
+  letter-spacing: 5px;
+  font-size: 23px;
+  margin-bottom: 20px;
+  padding-top: 23px;
+  color: rgb(255, 176, 30);
+}
+
+.sbscontain{
+  display: flex;
+  align-items: center;
+}
+
+.content{
+  font-size: 18px;
+  margin-left: 40px;
+  font-weight: 500;
+  font-weight: bold;
+  margin-bottom: 38px;
+  margin-top: 8px;
+}
+
+.starpng{
+  display: inline-block;
+  width: 24px;
+  height: 24px;
+  margin-left: 10px;
+  margin-right: 5px;
+  padding-top: 4px;
+}
+
+.hobbies{
+  display: inline-block;
+  font-weight: 800;
+  letter-spacing: 3px;
+  font-size: 21px;
+  margin-bottom: 20px;
+  color: rgb(255, 176, 30);
+}
+
+.judulkanan{
+  display: inline-block;
+  font-weight: 800;
+  letter-spacing: 2px;
+  font-size: 21px;
+  margin-bottom: 60px;
+  color: rgb(255, 176, 30);
+}
+
+.judulkanan1{
+  display: inline-block;
+  font-weight: 800;
+  letter-spacing: 2px;
+  font-size: 21px;
+  margin-bottom: 60px;
+  color: rgb(255, 176, 30);
+  margin-top: 22px;
+}
+
+.right_block{
+  margin-left: 50px;
+}
+
+.grid_block{
+  display: grid;
+  grid-template-columns: 100px 1fr;
+  margin-bottom: 70px;
+}
+
+.magang_year,
+.magangtext{
+  text-align: center;
+  font-weight: 500;
+  font-weight: bold;
+}
+
+.kolom{
+  display: grid;
+  grid-template-columns: 100px 1fr;
+  margin-bottom: 46px;
+}
+
+.kolom_nonformal{
+  display: grid;
+  grid-template-columns: 100px 1fr;
+  margin-bottom: 70px;
+}
+
+.pendidikan_year{
+  text-align: center;
+  font-weight: 500;
+  font-weight: bold;
+}
+
+.institute_name{
+  font-weight: 800;
+  padding-left: 60px;
+}
+
+.akuntansi{
+  font-weight: 500;
+  text-align: center;
+}
+
+.kategori{
+  text-decoration: underline;
+  font-weight: 800;
+  letter-spacing: 2px;
+  font-size: 19px;
+  margin-bottom: 30px;
+  color: rgb(48, 131, 255);
+  padding-left: 30px;
+}
+
+.institute_nonformal{
+  padding-left: 60px;
+}
+
+.nonformal{
+  font-weight: 500;
+  font-weight: bold;
+}
+
+.clickme{
+  display: inline-block;
+  text-decoration: none;
+  color: red;
+  font-weight: 600;
+}
+
+.clickme:hover{
+  color: rgb(255, 120, 120);
+  text-decoration: underline;
+}
+
+.clickme:active{
+  color: red;
+  text-decoration: none
+}
+
+.extracredit{
+  display: inline-block;
+  background-color:rgb(197, 235, 250);
+  border-style: solid;
+  border-width: 2px;
+  border-radius: 60px;
+  margin-left: 550px;
+  margin-top: 20px;
+  height: 30px;
+  width: 250px;
+}

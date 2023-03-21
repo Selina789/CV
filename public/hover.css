@@ -1,0 +1,22 @@
+.logo:hover{
+  color:rgb(238, 238, 238);
+}
+.homebtn:hover{
+  color: rgb(250, 124, 124);
+}
+
+.profilebtn:hover{
+  color: rgb(119, 188, 216);
+}
+
+.aboutbtn:hover{
+  color: rgb(211, 211, 99);
+}
+
+.btn-success:hover{
+  color: rgb(90, 219, 90);
+}
+
+.btn-primary:hover{
+  color: rgb(92, 188, 219);
+}
